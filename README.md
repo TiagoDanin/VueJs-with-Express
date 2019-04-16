@@ -21,6 +21,12 @@ npm install vuejs-with-express --save
 yarn add vuejs-with-express
 ```
 
+## Usage
+```sh
+# Start
+yarn dev
+
+```
 
 
 ## Dependencies
@@ -46,7 +52,7 @@ yarn add vuejs-with-express
 Pull requests and stars are always welcome. For bugs and feature requests, please [create an issue](https://github.com/TiagoDanin/VueJs-with-Express/issues). [List of all contributors](https://github.com/TiagoDanin/VueJs-with-Express/graphs/contributors).
 
 ## Thanks
-- [danijelmartinek](https://github.com/danijelmartinek/nuxt.js-express-vuetify): Inspiration in nuxt-express-vuetify-boilerplat
+- [danijelmartinek](https://github.com/danijelmartinek/nuxt.js-express-vuetify): Fork/Inspiration in nuxt.js-express-vuetify
 
 ## License
 [MIT](LICENSE) © [Tiago Danin](https://tiagodanin.github.io)

@@ -1,7 +1,7 @@
 {
   "name": "vuejs-with-express",
   "main": "server/index.js",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Example PWA + Nuxt + Vue + Axios + Express",
   "author": {
     "name": "Tiago Danin",
@@ -50,28 +50,28 @@
     "server"
   ],
   "dependencies": {
-    "@nuxtjs/axios": "^5.4.1",
-    "@nuxtjs/pwa": "^3.0.0-beta.14",
-    "axios": "^0.18.0",
-    "body-parser": "^1.18.3",
-    "cookie-session": "^1.3.3",
-    "cross-env": "^5.0.1",
-    "express": "^4.16.4",
-    "nuxt": "^2.6.2",
-    "source-map-support": "^0.4.15",
-    "vue": "^2.6.10",
-    "vuetify": "^1.5.11"
+    "@nuxtjs/axios": "5.4.1",
+    "@nuxtjs/pwa": "3.0.0-beta.14",
+    "axios": "0.18.0",
+    "body-parser": "1.18.3",
+    "cookie-session": "1.3.3",
+    "cross-env": "5.0.1",
+    "express": "4.16.4",
+    "nuxt": "2.6.2",
+    "source-map-support": "0.4.15",
+    "vue": "2.6.10",
+    "vuetify": "1.5.11"
   },
   "devDependencies": {
-    "backpack-core": "^0.8.3",
-    "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.1"
+    "backpack-core": "0.8.3",
+    "stylus": "0.54.5",
+    "stylus-loader": "3.0.1"
   },
   "thanks": [
     {
       "name": "danijelmartinek",
       "url": "https://github.com/danijelmartinek/nuxt.js-express-vuetify",
-      "description": "Inspiration in nuxt-express-vuetify-boilerplat"
+      "description": "Fork/Inspiration in nuxt.js-express-vuetify"
     }
   ],
   "engines": {
