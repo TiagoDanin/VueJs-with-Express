@@ -59,3 +59,18 @@ typings/
 
 # next.js build output
 .next
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
+# Backpack build
+build
+
+# PWA
+sw.*
+
+# Https
+cert
