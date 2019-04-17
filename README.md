@@ -32,20 +32,18 @@ yarn dev
 ## Dependencies
 - [@nuxtjs/axios](https://ghub.io/@nuxtjs/axios): Secure and easy axios integration with Nuxt.js
 - [@nuxtjs/pwa](https://ghub.io/@nuxtjs/pwa): 👉 Please refer to [nuxt-community/pwa-module](https://github.com/nuxt-community/pwa-module) for documentation.
+- [@nuxtjs/vuetify](https://ghub.io/@nuxtjs/vuetify): Vuetify Module for Nuxt.js
 - [axios](https://ghub.io/axios): Promise based HTTP client for the browser and node.js
 - [body-parser](https://ghub.io/body-parser): Node.js body parsing middleware
 - [cookie-session](https://ghub.io/cookie-session): cookie session middleware
 - [cross-env](https://ghub.io/cross-env): Run scripts that set and use environment variables across platforms
 - [express](https://ghub.io/express): Fast, unopinionated, minimalist web framework
 - [nuxt](https://ghub.io/nuxt): A minimalistic framework for server-rendered Vue.js applications (inspired by Next.js)
-- [source-map-support](https://ghub.io/source-map-support): Fixes stack traces for files with source maps
 - [vue](https://ghub.io/vue): Reactive, component-oriented view layer for modern web interfaces.
 - [vuetify](https://ghub.io/vuetify): Vue.js 2 Semantic Component Framework
 
 ## Dev Dependencies
-- [backpack-core](https://ghub.io/backpack-core): Backpack is a minimalistic build system for Node.js
-- [stylus](https://ghub.io/stylus): Robust, expressive, and feature-rich CSS superset
-- [stylus-loader](https://ghub.io/stylus-loader): Stylus loader for webpack
+- [nodemon](https://ghub.io/nodemon): Simple monitor script for use during development of a node.js app.
 
 
 ## Contributors
