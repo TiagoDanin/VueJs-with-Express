@@ -10,7 +10,7 @@ const host = process.env.HOST || '127.0.0.1'
 const port = process.env.PORT || 3000
 
 const key = fs.readFileSync('./cert/selfsigned.key')
-const cert = fs.readFileSync('./cert/selfsigned.crt') 
+const cert = fs.readFileSync('./cert/selfsigned.crt')
 
 const config = require('../nuxt.config.js')
 config.dev = !(process.env.NODE_ENV === 'production')
@@ -40,7 +40,7 @@ server.use(
 		extended: false
 	})
 )
-
+ 
 server.use(nuxt.render)
 server.listen(port, host)
 console.log('Server listening on ' + host + ':' + port)

@@ -18,22 +18,28 @@ module.exports = {
 		name: 'My Awesome App',
 	},
 	build: {
-		vendor: ['axios'],
-		vendor: ['vuetify'],
+		//vendor: ['axios'],
 		extractCSS: false,
 	},
-	watch: [
-		'~/api/*.js' 
-	],
+	
 	css: [
-		'~/assets/css/main.css',
-		'~/assets/css/app.styl'
+		'~/assets/css/main.css'
 	],
 	plugins: [
-		'~/plugins/vuetify',
 		'~/plugins/axios'
 	],
 	modules: [
+		['@nuxtjs/vuetify', {
+			theme: {
+				primary: '#009688',
+				secondary: '#8bc34a',
+				accent: '#03a9f4',
+				error: '#ff5722',
+				info: '#2196f3',
+				success: '#4CAF50',
+				warning: '#ffc107'
+			}
+		}],
 		['@nuxtjs/axios', {
 			//baseURL: 'http://localhost:3000'
 		}],
