@@ -21,7 +21,7 @@ module.exports = {
 		//vendor: ['axios'],
 		extractCSS: false,
 	},
-	
+
 	css: [
 		'~/assets/css/main.css'
 	],
@@ -45,5 +45,8 @@ module.exports = {
 		}],
 		//['@nuxtjs/pwa', { icon: false }]
 	],
-	serverMiddleware: ['~/api/status.js']
+	serverMiddleware: [
+		'~/api/status.js',
+		'~/api/blog.js'
+	]
 }
