@@ -2,7 +2,7 @@
 	"name": "vuejs-with-express",
 	"main": "server/index.js",
 	"preferGlobal": false,
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Example PWA + Nuxt + Vue + Axios + Express",
 	"author": {
 		"email": "TiagoDanin@outlook.com",
