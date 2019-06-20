@@ -1,4 +1,5 @@
 const express = require('express')
+
 const app = express()
 
 const posts = [{
@@ -9,7 +10,7 @@ const posts = [{
 	body: 'My name is Tiago Danin'
 }]
 
-app.get('/', (req, res, next) => {
+app.get('/', (req, res) => {
 	res.json({
 		posts
 	})

@@ -1,5 +1,5 @@
-const { Nuxt, Builder } = require('nuxt')
 const fs = require('fs')
+const {Nuxt, Builder} = require('nuxt')
 const express = require('express')
 const bodyParser = require('body-parser')
 const cookieSession = require('cookie-session')
@@ -13,13 +13,14 @@ const key = fs.readFileSync('./cert/selfsigned.key')
 const cert = fs.readFileSync('./cert/selfsigned.crt')
 
 const config = require('../nuxt.config.js')
+
 config.dev = !(process.env.NODE_ENV === 'production')
 config.server = {
-	port: port,
-	host: host,
+	port,
+	host,
 	https: {
-		key: key,
-		cert: cert
+		key,
+		cert
 	}
 }
 const nuxt = new Nuxt(config)
@@ -40,7 +41,7 @@ server.use(
 		extended: false
 	})
 )
- 
+
 server.use(nuxt.render)
 server.listen(port, host)
 console.log('Server listening on ' + host + ':' + port)

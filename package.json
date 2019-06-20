@@ -1,30 +1,29 @@
 {
 	"name": "vuejs-with-express",
 	"main": "server/index.js",
-	"bin": {},
 	"preferGlobal": false,
 	"version": "1.0.1",
 	"description": "Example PWA + Nuxt + Vue + Axios + Express",
 	"author": {
-		"name": "Tiago Danin",
 		"email": "TiagoDanin@outlook.com",
+		"name": "Tiago Danin",
 		"url": "https://tiagodanin.github.io"
 	},
 	"license": "MIT",
 	"keywords": [
-		"pwa",
-		"nuxt",
-		"vue",
 		"axios",
 		"express",
-		"vuejs",
+		"expressjs",
+		"nuxt",
 		"nuxtjs",
-		"expressjs"
+		"pwa",
+		"vue",
+		"vuejs"
 	],
 	"scripts": {
 		"start": "cross-env NODE_ENV=production node build/main.js",
-		"test": "echo \"Nice Test :)\"",
 		"dev": "nodemon --exec nuxt",
+		"test": "xo && nuxt build && backpack build",
 		"build": "nuxt build && backpack build"
 	},
 	"engines": {
@@ -71,7 +70,11 @@
 		"vuetify": "1.5.16"
 	},
 	"devDependencies": {
-		"nodemon": "^1.19.1"
+		"nodemon": "^1.19.1",
+		"xo": "^0.24.0"
+	},
+	"xo": {
+		"semicolon": false
 	},
 	"thanks": [
 		{
