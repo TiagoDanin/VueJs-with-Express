@@ -1275,7 +1275,7 @@
     webpack-node-externals "^1.7.2"
     webpackbar "^3.2.0"
 
-"@nuxtjs/axios@^5.4.1":
+"@nuxtjs/axios@^5.5.4":
   version "5.5.4"
   resolved "https://registry.yarnpkg.com/@nuxtjs/axios/-/axios-5.5.4.tgz#c4aee2322901b19d4072670c03144662a73ea6f4"
   integrity sha512-/Ljsyh5VIc9paXGrQue7RQ+PpBNES1oit0g4l+ya1tfyKnZMpHSbghuLcv0xq+BpXlSEr690uemHbz54/N6U5w==
