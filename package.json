@@ -23,8 +23,8 @@
 	"scripts": {
 		"start": "cross-env NODE_ENV=production node build/main.js",
 		"dev": "nodemon --exec nuxt",
-		"test": "xo && nuxt build && backpack build",
-		"build": "nuxt build && backpack build"
+		"test": "xo && nuxt build",
+		"build": "nuxt build"
 	},
 	"engines": {
 		"node": ">=8"
@@ -47,7 +47,6 @@
 		"README.md",
 		"api",
 		"assets",
-		"backpack.config.js",
 		"components",
 		"layouts",
 		"nuxt.config.js",
