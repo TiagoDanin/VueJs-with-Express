@@ -68,7 +68,7 @@
 		"express": "^4.16.4",
 		"nuxt": "^2.6.3",
 		"vue": "^2.6.10",
-		"vuetify": "1.5.11"
+		"vuetify": "1.5.16"
 	},
 	"devDependencies": {
 		"nodemon": "^1.18.11"
