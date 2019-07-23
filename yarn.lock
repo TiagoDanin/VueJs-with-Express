@@ -1349,12 +1349,12 @@
     "@nuxtjs/pwa-utils" "3.0.0-beta.16"
     "@nuxtjs/workbox" "3.0.0-beta.16"
 
-"@nuxtjs/vuetify@^0.5.6":
-  version "0.5.6"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/vuetify/-/vuetify-0.5.6.tgz#b070ebb338439aabb130b486db622b74b8c01e92"
-  integrity sha512-AZrYApYcrz8WmZWI0UKKBi7XT+Qzwl1lgHcIBJT2+PU9F5k/E+WaaUId7XAaBRGG6gH+nXZPqxn/hm3NXvKFgg==
+"@nuxtjs/vuetify@^0.5.7":
+  version "0.5.7"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/vuetify/-/vuetify-0.5.7.tgz#99661a833c8f17e7eae0e4f971ca4a9fb7d451fa"
+  integrity sha512-o3EocO64R6B08sR/B1jwX1i9beZiQxaqdnkLX1ysE0dShig1B2nzcbZ1Ak6AXI934FUuGDOGDf388ufH35jLTQ==
   dependencies:
-    vuetify "^1.5.14"
+    vuetify "^1.5.16"
 
 "@nuxtjs/workbox@3.0.0-beta.16":
   version "3.0.0-beta.16"
@@ -9179,7 +9179,7 @@ vue@^2.6.10:
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.10.tgz#a72b1a42a4d82a721ea438d1b6bf55e66195c637"
   integrity sha512-ImThpeNU9HbdZL3utgMCq0oiMzAkt1mcgy3/E6zWC/G6AaQoeuFdsl9nDhTDU3X1R6FK7nsIUuRACVcjI+A2GQ==
 
-vuetify@1.5.16, vuetify@^1.5.14:
+vuetify@1.5.16, vuetify@^1.5.16:
   version "1.5.16"
   resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-1.5.16.tgz#cc9d0199c389d64d15787ddc85ca47a28225eeee"
   integrity sha512-yBgOsfurKQkeS+l+rrTQZ2bFk0D9ezjHhkuVM5A/yVzcg62sY2nfYaq/H++uezBWC9WYFrp/5OmSocJQcWn9Qw==
