@@ -2,7 +2,7 @@
 	<div>
 		<v-card class="mx-auto" fill-height v-for="(post, i) of posts" :key="i">
 			<v-card-title>
-				<span class="title font-weight-light" v-text="post.title"></span>
+				<span class="title bold font-weight-light" v-text="post.title"></span>
 			</v-card-title>
 
 			<v-card-text class="headline font-weight-bold" v-text="post.body">

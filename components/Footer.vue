@@ -1,25 +1,35 @@
 <template>
-<v-footer height="auto" color="primary lighten-1">
-	<v-layout justify-center row wrap>
-		<v-btn v-for="(link, index) in links" :key="index" color="white" flat round :to="link.to">
-			{{ link.title }}
-		</v-btn>
-		<v-flex primary lighten-2 py-3 text-xs-center white--text xs12>
-			&copy;{{ new Date().getFullYear() }} — <strong>Tiago Danin</strong>
-		</v-flex>
-	</v-layout>
-</v-footer>
+	<v-footer height="auto" color="primary lighten-1">
+		<v-layout justify-center row wrap>
+			<v-card flat tile width="100%" class="text-center" color="primary lighten-1">
+				<v-btn v-for="(link, index) in links" :key="index" color="white" class="mx-3" text rounded :to="link.to">
+					{{ link.title }}
+				</v-btn>
+				<v-card-text class="white--text">
+					&copy;{{ new Date().getFullYear() }} — <strong>Tiago Danin</strong>
+				</v-card-text>
+			</v-card>
+		</v-layout>
+	</v-footer>
 </template>
 
 <script>
 	export default {
 		name: 'appfooter',
-		data () {
+		data() {
 			return {
-				links: [
-					{ title: 'Home', to: '/' },
-					{ title: 'Blog', to: '/blog' },
-					{ title: 'Status', to: '/status' }
+				links: [{
+						title: 'Home',
+						to: '/'
+					},
+					{
+						title: 'Blog',
+						to: '/blog'
+					},
+					{
+						title: 'Status',
+						to: '/status'
+					}
 				]
 			}
 		}
