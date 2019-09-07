@@ -37,22 +37,87 @@ yarn test
 
 ## Dependencies
 
-- [@nuxtjs/axios](https://ghub.io/@nuxtjs/axios): Secure and easy axios integration with Nuxt.js
-- [@nuxtjs/pwa](https://ghub.io/@nuxtjs/pwa): 👉 Please refer to [nuxt-community/pwa-module](https://github.com/nuxt-community/pwa-module) for documentation.
-- [@nuxtjs/vuetify](https://ghub.io/@nuxtjs/vuetify): Vuetify Module for Nuxt.js
-- [axios](https://ghub.io/axios): Promise based HTTP client for the browser and node.js
-- [body-parser](https://ghub.io/body-parser): Node.js body parsing middleware
-- [cookie-session](https://ghub.io/cookie-session): cookie session middleware
-- [cross-env](https://ghub.io/cross-env): Run scripts that set and use environment variables across platforms
-- [express](https://ghub.io/express): Fast, unopinionated, minimalist web framework
-- [nuxt](https://ghub.io/nuxt): A minimalistic framework for server-rendered Vue.js applications (inspired by Next.js)
-- [vue](https://ghub.io/vue): Reactive, component-oriented view layer for modern web interfaces.
-- [vuetify](https://ghub.io/vuetify): Vue.js Material Component Framework
+<details>
+	<summary><a href="https://ghub.io/@nuxtjs/axios">@nuxtjs/axios</a>: Secure and easy axios integration with Nuxt.js</summary>
+	<b>Author</b>: alexchopin, atinux, clarkdo, nuxt.bot, pi0</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^5.6.0
+</details>
+<details>
+	<summary><a href="https://ghub.io/@nuxtjs/pwa">@nuxtjs/pwa</a>: Supercharge Nuxt with a heavily tested, updated, zero-config and stable PWA solution!</summary>
+	<b>Author</b>: alexchopin, atinux, clarkdo, nuxt.bot, pi0</br>
+	<b>License</b>: </br>
+	<b>Version</b>: 3.0.0-beta.17
+</details>
+<details>
+	<summary><a href="https://ghub.io/@nuxtjs/vuetify">@nuxtjs/vuetify</a>: Vuetify Module for Nuxt.js</summary>
+	<b>Author</b>: aldarund, alexchopin, atinux, clarkdo, kevinmarrec, nuxt.bot, pi0</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^1.6.3
+</details>
+<details>
+	<summary><a href="https://ghub.io/axios">axios</a>: Promise based HTTP client for the browser and node.js</summary>
+	<b>Author</b>: Matt Zabriskie</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^0.19.0
+</details>
+<details>
+	<summary><a href="https://ghub.io/body-parser">body-parser</a>: Node.js body parsing middleware</summary>
+	<b>Author</b>: dougwilson</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: 1.19.0
+</details>
+<details>
+	<summary><a href="https://ghub.io/cookie-session">cookie-session</a>: cookie session middleware</summary>
+	<b>Author</b>: fishrock123, tjholowaychuk, dougwilson, jongleberry, defunctzombie</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: 1.3.3
+</details>
+<details>
+	<summary><a href="https://ghub.io/cross-env">cross-env</a>: Run scripts that set and use environment variables across platforms</summary>
+	<b>Author</b>: Kent C. Dodds</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^5.2.1
+</details>
+<details>
+	<summary><a href="https://ghub.io/express">express</a>: Fast, unopinionated, minimalist web framework</summary>
+	<b>Author</b>: TJ Holowaychuk</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^4.17.1
+</details>
+<details>
+	<summary><a href="https://ghub.io/nuxt">nuxt</a>: A minimalistic framework for server-rendered Vue.js applications (inspired by Next.js)</summary>
+	<b>Author</b>: atinux</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^2.9.2
+</details>
+<details>
+	<summary><a href="https://ghub.io/vue">vue</a>: Reactive, component-oriented view layer for modern web interfaces.</summary>
+	<b>Author</b>: Evan You</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^2.6.10
+</details>
+<details>
+	<summary><a href="https://ghub.io/vuetify">vuetify</a>: Vue.js 2 Semantic Component Framework</summary>
+	<b>Author</b>: John Leider</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: 2.0.15
+</details>
 
 ## Dev Dependencies
 
-- [nodemon](https://ghub.io/nodemon): Simple monitor script for use during development of a node.js app.
-- [xo](https://ghub.io/xo): JavaScript happiness style linter ❤️
+<details>
+	<summary><a href="https://ghub.io/nodemon">nodemon</a>: Simple monitor script for use during development of a node.js app.</summary>
+	<b>Author</b>: Remy Sharp</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^1.19.2
+</details>
+<details>
+	<summary><a href="https://ghub.io/xo">xo</a>: JavaScript happiness style linter ❤️</summary>
+	<b>Author</b>: Sindre Sorhus</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^0.24.0
+</details>
 
 ## Contributors
 
