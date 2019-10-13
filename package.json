@@ -69,7 +69,7 @@
 		"vuetify": "2.0.15"
 	},
 	"devDependencies": {
-		"nodemon": "^1.19.2",
+		"nodemon": "^1.19.3",
 		"xo": "^0.24.0"
 	},
 	"xo": {
