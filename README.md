@@ -39,19 +39,19 @@ yarn test
 
 <details>
 	<summary><a href="https://ghub.io/@nuxtjs/axios">@nuxtjs/axios</a>: Secure and easy axios integration with Nuxt.js</summary>
-	<b>Author</b>: alexchopin, atinux, clarkdo, nuxt.bot, pi0</br>
+	<b>Author</b>: alexchopin, atinux, clarkdo, galvez, nuxt.bot, pi0</br>
 	<b>License</b>: MIT</br>
-	<b>Version</b>: ^5.6.0
+	<b>Version</b>: ^5.9.0
 </details>
 <details>
 	<summary><a href="https://ghub.io/@nuxtjs/pwa">@nuxtjs/pwa</a>: Supercharge Nuxt with a heavily tested, updated, zero-config and stable PWA solution!</summary>
-	<b>Author</b>: alexchopin, atinux, clarkdo, nuxt.bot, pi0</br>
+	<b>Author</b>: galvez, nuxt.bot, clarkdo, pi0, atinux, alexchopin</br>
 	<b>License</b>: </br>
-	<b>Version</b>: 3.0.0-beta.17
+	<b>Version</b>: 3.0.0-beta.19
 </details>
 <details>
 	<summary><a href="https://ghub.io/@nuxtjs/vuetify">@nuxtjs/vuetify</a>: Vuetify Module for Nuxt.js</summary>
-	<b>Author</b>: aldarund, alexchopin, atinux, clarkdo, kevinmarrec, nuxt.bot, pi0</br>
+	<b>Author</b>: aldarund, alexchopin, atinux, clarkdo, galvez, kevinmarrec, nuxt.bot, pi0</br>
 	<b>License</b>: MIT</br>
 	<b>Version</b>: ^1.6.3
 </details>
@@ -77,7 +77,7 @@ yarn test
 	<summary><a href="https://ghub.io/cross-env">cross-env</a>: Run scripts that set and use environment variables across platforms</summary>
 	<b>Author</b>: Kent C. Dodds</br>
 	<b>License</b>: MIT</br>
-	<b>Version</b>: ^5.2.1
+	<b>Version</b>: ^6.0.3
 </details>
 <details>
 	<summary><a href="https://ghub.io/express">express</a>: Fast, unopinionated, minimalist web framework</summary>
@@ -89,7 +89,7 @@ yarn test
 	<summary><a href="https://ghub.io/nuxt">nuxt</a>: A minimalistic framework for server-rendered Vue.js applications (inspired by Next.js)</summary>
 	<b>Author</b>: atinux</br>
 	<b>License</b>: MIT</br>
-	<b>Version</b>: ^2.9.2
+	<b>Version</b>: ^2.11.0
 </details>
 <details>
 	<summary><a href="https://ghub.io/vue">vue</a>: Reactive, component-oriented view layer for modern web interfaces.</summary>
@@ -98,10 +98,10 @@ yarn test
 	<b>Version</b>: ^2.6.10
 </details>
 <details>
-	<summary><a href="https://ghub.io/vuetify">vuetify</a>: Vue.js 2 Semantic Component Framework</summary>
+	<summary><a href="https://ghub.io/vuetify">vuetify</a>: Vue Material Component Framework</summary>
 	<b>Author</b>: John Leider</br>
 	<b>License</b>: MIT</br>
-	<b>Version</b>: 2.0.15
+	<b>Version</b>: 2.1.15
 </details>
 
 ## Dev Dependencies
@@ -110,13 +110,13 @@ yarn test
 	<summary><a href="https://ghub.io/nodemon">nodemon</a>: Simple monitor script for use during development of a node.js app.</summary>
 	<b>Author</b>: Remy Sharp</br>
 	<b>License</b>: MIT</br>
-	<b>Version</b>: ^1.19.2
+	<b>Version</b>: ^2.0.2
 </details>
 <details>
-	<summary><a href="https://ghub.io/xo">xo</a>: JavaScript happiness style linter ❤️</summary>
+	<summary><a href="https://ghub.io/xo">xo</a>: JavaScript linter with great defaults</summary>
 	<b>Author</b>: Sindre Sorhus</br>
 	<b>License</b>: MIT</br>
-	<b>Version</b>: ^0.24.0
+	<b>Version</b>: ^0.25.3
 </details>
 
 ## Contributors

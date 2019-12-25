@@ -48,5 +48,8 @@ module.exports = {
 	serverMiddleware: [
 		'~/api/status.js',
 		'~/api/blog.js'
+	],
+	ignorePaths: [
+		'/api'
 	]
 }

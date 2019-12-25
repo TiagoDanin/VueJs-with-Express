@@ -1,23 +1,25 @@
 <template>
-	<v-toolbar dark color="primary">
-		<v-btn icon class="hidden-xs-only" v-on:click="goBack">
-			<v-icon>arrow_back</v-icon>
-		</v-btn>
-		<v-toolbar-title class="white--text">APP NAME</v-toolbar-title>
-		<v-spacer></v-spacer>
-		<v-btn icon>
-			<v-icon>search</v-icon>
-		</v-btn>
-		<v-btn icon>
-			<v-icon>apps</v-icon>
-		</v-btn>
-		<v-btn icon v-on:click="refresh">
-			<v-icon>refresh</v-icon>
-		</v-btn>
-		<v-btn icon>
-			<v-icon>more_vert</v-icon>
-		</v-btn>
-	</v-toolbar>
+	<div>
+		<v-toolbar dark color="primary">
+			<v-btn icon class="hidden-xs-only" v-on:click="goBack">
+				<v-icon>arrow_back</v-icon>
+			</v-btn>
+			<v-toolbar-title class="white--text">APP NAME</v-toolbar-title>
+			<v-spacer></v-spacer>
+			<v-btn icon>
+				<v-icon>search</v-icon>
+			</v-btn>
+			<v-btn icon>
+				<v-icon>apps</v-icon>
+			</v-btn>
+			<v-btn icon v-on:click="refresh">
+				<v-icon>refresh</v-icon>
+			</v-btn>
+			<v-btn icon>
+				<v-icon>more_vert</v-icon>
+			</v-btn>
+		</v-toolbar>
+	</div>
 </template>
 
 <script>

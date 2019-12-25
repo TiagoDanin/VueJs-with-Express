@@ -1,15 +1,17 @@
 <template>
-	<v-app>
-		<myHeader/>
-		<main>
-			<v-content>
-				<v-container fluid>
-					<nuxt/>
-				</v-container>
-			</v-content>
-		</main>
-		<myFooter/>
-	</v-app>
+	<div>
+		<v-app>
+			<myHeader/>
+			<main>
+				<v-content>
+					<v-container fluid>
+						<nuxt/>
+					</v-container>
+				</v-content>
+			</main>
+			<myFooter/>
+		</v-app>
+	</div>
 </template>
 
 <script>

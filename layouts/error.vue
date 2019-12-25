@@ -1,12 +1,14 @@
 <template>
-	<section class="container">
-		<h2>
-			Error: {{ error.statusCode }}
-		</h2>
-		<nuxt-link class="button" to="/">
-			Homepage
-		</nuxt-link>
-	</section>
+	<div>
+		<section class="container">
+			<h2>
+				Error: {{ error.statusCode }}
+			</h2>
+			<nuxt-link class="button" to="/">
+				Homepage
+			</nuxt-link>
+		</section>
+	</div>
 </template>
 
 <script>
