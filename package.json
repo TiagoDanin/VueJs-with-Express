@@ -21,7 +21,7 @@
 		"vuejs"
 	],
 	"scripts": {
-		"start": "cross-env NODE_ENV=production node build/main.js",
+		"start": "cross-env NODE_ENV=production nuxt",
 		"dev": "nodemon --exec nuxt",
 		"test": "xo && nuxt build",
 		"build": "nuxt build"
