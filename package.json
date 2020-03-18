@@ -65,7 +65,7 @@
 		"cross-env": "^6.0.3",
 		"express": "^4.17.1",
 		"nuxt": "^2.12.0",
-		"vue": "^2.6.10",
+		"vue": "^2.6.11",
 		"vuetify": "2.2.18"
 	},
 	"devDependencies": {
