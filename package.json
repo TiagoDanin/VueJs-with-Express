@@ -56,7 +56,7 @@
 		"server"
 	],
 	"dependencies": {
-		"@nuxtjs/axios": "^5.10.3",
+		"@nuxtjs/axios": "^5.12.1",
 		"@nuxtjs/pwa": "3.0.0-beta.20",
 		"@nuxtjs/vuetify": "^1.11.2",
 		"axios": "^0.19.2",
