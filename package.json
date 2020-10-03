@@ -57,7 +57,7 @@
 	],
 	"dependencies": {
 		"@nuxtjs/axios": "^5.12.2",
-		"@nuxtjs/pwa": "3.0.0-beta.20",
+		"@nuxtjs/pwa": "3.0.2",
 		"@nuxtjs/vuetify": "^1.11.2",
 		"axios": "^0.20.0",
 		"body-parser": "1.19.0",
