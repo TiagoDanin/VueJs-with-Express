@@ -64,7 +64,7 @@
 		"cookie-session": "1.4.0",
 		"cross-env": "^6.0.3",
 		"express": "^4.17.1",
-		"nuxt": "^2.14.6",
+		"nuxt": "^2.14.7",
 		"vue": "^2.6.12",
 		"vuetify": "2.3.12"
 	},
