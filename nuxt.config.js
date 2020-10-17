@@ -32,7 +32,6 @@ module.exports = {
 	},
 
 	css: ['~/assets/css/main.css'],
-	plugins: ['~/plugins/axios'],
 	modules: [
 		[
 			'@nuxtjs/vuetify',
