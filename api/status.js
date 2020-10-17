@@ -2,14 +2,14 @@ const express = require('express')
 
 const app = express()
 
-app.get('/ping', (req, res) => {
-	res.json({
+app.get('/ping', (request, response) => {
+	response.json({
 		ping: 'Ping'
 	})
 })
 
-app.get('/pong', (req, res) => {
-	res.json({
+app.get('/pong', (request, response) => {
+	response.json({
 		pong: 'Pong'
 	})
 })

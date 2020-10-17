@@ -10,8 +10,8 @@ const posts = [{
 	body: 'My name is Tiago Danin'
 }]
 
-app.get('/', (req, res) => {
-	res.json({
+app.get('/', (request, response) => {
+	response.json({
 		posts
 	})
 })
