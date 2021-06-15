@@ -27,7 +27,7 @@
 		"build": "nuxt build"
 	},
 	"engines": {
-		"node": ">=v14.16.0"
+		"node": ">=v14.17.1"
 	},
 	"private": false,
 	"repository": {
