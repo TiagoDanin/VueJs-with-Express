@@ -9829,10 +9829,10 @@ vuetify-loader@^1.6.0:
     file-loader "^6.2.0"
     loader-utils "^2.0.0"
 
-vuetify@2.4.11, vuetify@^2.4.2:
-  version "2.4.11"
-  resolved "https://registry.npmjs.org/vuetify/-/vuetify-2.4.11.tgz"
-  integrity sha512-xFNwr95tFRfbyGNg5DBuUkWaKazMBr+ptzoSSL4PGrI0qItY5Vuusxh+ETPtjUXxwz76v5zVtGvF5rWvGQjy7A==
+vuetify@2.5.5, vuetify@^2.4.2:
+  version "2.5.5"
+  resolved "https://registry.npmjs.org/vuetify/-/vuetify-2.5.5.tgz"
+  integrity sha512-WsW+WaueqjgCvx0rB3m/pd8MZiLJKBWGwLxMMGhoA7i1OBWCzNwAAVOjoaW1Fcz0Sbn5qHOUOYnz4Vqlu43AbA==
 
 vuex@^3.5.1:
   version "3.5.1"
